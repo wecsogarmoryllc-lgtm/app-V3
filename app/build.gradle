@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.thinginomonitor'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.example.thinginomonitor'
+        minSdk 26
+        targetSdk 28
+        versionCode 3
+        versionName '0.3'
+    }
+}
